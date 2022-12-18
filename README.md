@@ -1,1 +1,1 @@
-# https://the7fame.github.io/rsschool-cv/cv
+https://the7fame.github.io/rsschool-cv/cv

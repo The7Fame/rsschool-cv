@@ -1,11 +1,63 @@
-h1{
-    font-size: large;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-h2{
-    font-size: medium;
+a:hover {
+  color: cadetblue;
+  transition: color 0.5ms ease-in-out;
 }
 
-p{
-    font-size: medium;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h1 {
+  font-size: 60px;
+  border-bottom: 1px solid black;
+}
+
+.info__contact > a > img {
+  width: 10%;
+}
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.info__contact {
+  font-size: 30px;
+}
+.menu__list {
+  display: flex;
+}
+.menu__list-li {
+  margin: auto;
+  font-size: 42px;
+}
+.menu__list-li:hover {
+  color: blue;
+}
+.menu__list-li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.container {
+  width: 800px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.footer__info > a > img {
+  width: 5%;
+}
+
+.footer__info {
+  align-items: center;
+  text-align: center;
 }
